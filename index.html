@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script/database.js" defer></script>
+    <script src="./script/index.js" defer></script>
     
     <title>Weartake</title>
   </head>
-  <body>
+  <body>   
     <header>
       <div class="header-container">
         <h1>Weartake</h1>
         <nav>
           <ul class="header-menu">
-            <li>Todos</li>
-            <li>Acessórios</li>
-            <li>Camisetas</li>
+            <li class="btn">Todos</li>
+            <li class="btn">Acessorios</li>
+            <li class="btn">Camisetas</li>
           </ul>
         </nav>
       </div>
@@ -40,25 +42,21 @@
             <h4>Carrinho de compras</h4>
           </div>
           <div class="cart-empty">
-            <h5>Carrinho Vazio</h5>
-            <p>Adicione Itens</p>
+              <h5>Carrinho Vazio</h5>
+              <p>Adicione Itens</p>
+            <div class="cart-product"></div>
           </div>
-
           <div class="cart-products">
             <ul class="cart-list"></ul>
           </div>
           <div class="cart-details">
             <div class="details-values">
-              <p>Quantidade:</p><span>0</span>
+              <p>Quantidade:</p><span class="count">0</span>
             </div>
             <div class="details-values">
               <p>Total:</p>
-              <span>R$0,00</span>
+              <span id="value">R$0,00</span>
             </div>
-
-          </div>
-
-          
           </div>
         </aside>
       </section>
