@@ -79,7 +79,7 @@ const data = [
   },
   {
     id: 7,
-    img: "./images/celulares/relogio.png",
+    img: "./images/Celulares/relogio.png",
     nameItem: "XIAOMI 7609 Smartwatch Amazfit Gts 2",
     description:
       `Para ajudá-lo a manter a forma no exercício de sua escolha, o gts 2 
