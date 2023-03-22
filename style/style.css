@@ -123,7 +123,7 @@ main {
 }
 
 .cart-products {
-  height: 500px;
+  height: 350px;
   width: 100%;
   background-color: #3ca7d2;
   display: flex;
@@ -222,13 +222,15 @@ li {
 
 .image {
   margin: 10px;
-  height: 45%;
-  width: 90%;
+  height: 40%;
+  width: 80%;
 }
 
 .btn,
 .removeCart,
-.addCart {
+.addCart,
+.comprar,
+.fechar {
   margin: 5px;
   font-size: 18px;
   text-align: center;
@@ -241,7 +243,9 @@ li {
 }
 .btn:hover,
 .removeCart:hover,
-.addCart:hover {
+.addCart:hover
+.comprar:hover,
+.fechar:hover {
   background: linear-gradient(to bottom,#033b88, #5e6eea);
 }
 
@@ -261,4 +265,56 @@ li {
 .listBuy .image {
   width: 150px;
   height: 150px;
+}
+footer {
+  background-color: #232222;
+  color: #ffffff;
+  text-align: center;
+  border: 30px solid #232222;
+}
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#popup-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(93, 209, 235);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 50%;
+
+}
+
+#popup-content p{
+  font-size: 40px;
+  font-family: monospace;
+  color: #ffffff;
+}
+
+.botao-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.zap {
+  height: 50px;
+  width: 50px;
+}
+.zap:hover{
+  opacity: 80%;
 }
