@@ -6,6 +6,7 @@ document.querySelector('.cart-details').style.display = 'none';
 
 let listProducts = document.querySelector('.main-cards');
 
+
 //função para renderizar os produtos
 function createListProduct(listProduct) {
 
@@ -61,8 +62,8 @@ function createListProduct(listProduct) {
     });
     listProducts.appendChild(li);
   }
-
 }
+
 
 //função para procurar o produto pelo id
 function searchProducts(id) {
@@ -127,6 +128,7 @@ function addCartItem(item) {
   const cartList = document.querySelector('.cart-list');
   const newCartItem = createCart(item);
   cartList.appendChild(newCartItem);
+
 
   countProducts++;
   document.querySelector('.count').innerHTML = `${countProducts}`;
