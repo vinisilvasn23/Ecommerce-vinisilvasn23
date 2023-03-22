@@ -78,19 +78,6 @@ const data = [
     tag: ["Celulares"],
   },
   {
-    id: 7,
-    img: "./images/Celulares/relogio.png",
-    nameItem: "XIAOMI 7609 Smartwatch Amazfit Gts 2",
-    description:
-      `Para ajudá-lo a manter a forma no exercício de sua escolha, o gts 2 
-      oferece suporte a 90 modos esportivos integrados, 6 dos quais são convenientemente reconhecidos
-      automaticamente, e rastreamento gps...`,
-    value: 690,
-    addCart: "Adicionar ao carrinho",
-    marca: "Xiaomi",
-    tag: ["Acessórios"],
-  },
-  {
     id: 8,
     img: "./images/Celulares/fone x.png",
     nameItem: "Fone de Ouvido Intrauricular Xiaomi",
