@@ -268,10 +268,10 @@ li {
   height: 150px;
 }
 footer {
-  background-color: #232222;
+  background-color: #000000;
   color: #ffffff;
   text-align: center;
-  border: 30px solid #232222;
+  border: 30px solid #000000;
 }
 #popup {
   display: none;
