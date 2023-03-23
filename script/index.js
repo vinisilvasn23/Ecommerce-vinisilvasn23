@@ -1,5 +1,6 @@
 let countProducts = 0;
 let countTotalValue = 0;
+let total = 0;
 
 document.querySelector('.cart-products').style.display = 'none';
 document.querySelector('.cart-details').style.display = 'none';
@@ -50,7 +51,9 @@ function createListProduct(listProduct) {
 
     //Evento de clique no botão adicionar carrinho
     addCart.addEventListener('click', function () {
-
+//       let preco = price.innerHTML;
+//       let resultado = parseFloat(preco.replace("R$ ", "").replace(",", "."));
+// console.log(resultado)
       document.querySelector('.empty-carts');
       document.querySelector('#value').innerHTML = `R$${countTotalValue}`;
       document.querySelector('.cart-empty').style.display = 'none';
@@ -62,6 +65,25 @@ function createListProduct(listProduct) {
     });
     listProducts.appendChild(li);
   }
+}
+
+//função que renderiza os produtos no carrinho através da sunção createCart
+function addCartItem(item) {
+  const cartList = document.querySelector('.cart-list');
+  const newCartItem = createCart(item);
+  cartList.appendChild(newCartItem);
+
+
+  countProducts++;
+  
+  document.querySelector('.count').innerHTML = `${countProducts}`;
+  
+  countTotalValue = item.value;
+  let resultado = parseFloat(parseFloat(countTotalValue.replace(",", ".")));
+  console.log(resultado,countTotalValue)
+  let valores = total += resultado;
+  
+  document.querySelector('#value').innerHTML = `R$ ${valores.toFixed(2).replace(".", ",")}`;
 }
 
 function openPopup() {
@@ -119,28 +141,19 @@ function createCart(product) {
       document.querySelector('.cart-details').style.display = 'none';
     }
 
-    countTotalValue -= product.value;
-    document.querySelector('#value').innerHTML = `R$${countTotalValue}`;
+
+  let resultado = parseFloat(parseFloat(countTotalValue.replace(",", ".")));
+  console.log(resultado,countTotalValue)
+  let valores = total -= resultado;
+
+    countTotalValue = product.value;
+    document.querySelector('#value').innerHTML = `R$ ${valores.toFixed(2).replace(".", ",")}`;
 
     let lisPatch = element.composedPath();
     lisPatch[1].remove();
   })
 
   return li;
-}
-
-//função que renderiza os produtos no carrinho através da sunção createCart
-function addCartItem(item) {
-  const cartList = document.querySelector('.cart-list');
-  const newCartItem = createCart(item);
-  cartList.appendChild(newCartItem);
-
-
-  countProducts++;
-  document.querySelector('.count').innerHTML = `${countProducts}`;
-
-  countTotalValue += item.value;
-  document.querySelector('#value').innerHTML = `R$${countTotalValue}`;
 }
 
 //função para filtrar os produtos

@@ -8,7 +8,7 @@ const data = [
     description:
       `Fino, elegante e completo, 
       sistema de câmera tripla com inteligência artificial e Captura Dupla...`,
-    value: 1399,
+    value: "1399,90",
     addCart: "Adicionar ao carrinho",
     marca: "Motorola",
     tag: ["Celulares"],
@@ -21,7 +21,7 @@ const data = [
       `Quad Câmera com sensor de 50 MP + Selfie de 16 MP
       Navegação suave com tela imersiva de 6,5″ HD+ com 90 Hz
       128 GB de armazenamento interno`,
-    value: 1429,
+    value: "1429,80",
     addCart: "Adicionar ao carrinho",
     marca: "Motorola",
     tag: ["Celulares"],
@@ -33,7 +33,7 @@ const data = [
     description:
       `Tela Super Retina XDR de 6,1 polegadas
       O modo cinematic adiciona profundidade de campo rasa e muda o foco automaticamente em seus vídeos...`,
-    value: 4634,
+    value: "4634,99",
     addCart: "Adicionar ao carrinho",
     marca: "Apple",
     tag: ["Celulares"],
@@ -46,7 +46,7 @@ const data = [
       `Modo Cinema, agora em 4K Dolby Vision até 30 qps
       Modo Ação para vídeos em movimento com mais estabilidade
       Tecnologia de segurança...`,
-    value: 6999,
+    value: "6999,99",
     addCart: "Adicionar ao carrinho",
     marca: "Apple",
     tag: ["Celulares"],
@@ -59,7 +59,7 @@ const data = [
       `6GB RAM, 128GB de armazenamento.
       O conjunto de 4 câmeras IA tem como protagonista 
       a câmera de 108MP equipada com um sensor de imagem de 1/1,52 para imagens ultra nítidas impressionantes...`,
-    value: 1303,
+    value: "1303,99",
     addCart: "Adicionar ao carrinho",
     marca: "Xiaomi",
     tag: ["Celulares"],
@@ -72,7 +72,7 @@ const data = [
       `8GB RAM, 256GB de armazenamento.
       Potente núcleo com nova rede 5G: POCO X5 utiliza o Snapdragon 695 
       construído sobre o processo de 6nm da TSMC e uma nova arquitetura, juntamente com o Cortex-A78...`,
-    value: 1980,
+    value: "1980,99",
     addCart: "Adicionar ao carrinho",
     marca: "Xiaomi",
     tag: ["Celulares"],
@@ -84,7 +84,7 @@ const data = [
     description:
       `O fone queridinho do mercado agora em nova versão.
       Conheça o novo Redmi Airdots 3 que veio para conquistar o mercado com sua elegância e qualidade...`,
-    value: 270,
+    value: "270,50",
     addCart: "Adicionar ao carrinho",
     marca: "Xiaomi",
     tag: ["Acessórios"],
@@ -97,7 +97,7 @@ const data = [
       `QHD 2560*1440P/165Hz
       IPS monitorar with 100%sRGB para lhe proporcionar uma experiência de jogo mais colorida
       função de rotação, ângulo de rotação 30°...`,
-    value: 2100,
+    value: "2100,55",
     addCart: "Adicionar ao carrinho",
     marca: "FYHXele",
     tag: ["Monitores"],
@@ -109,7 +109,7 @@ const data = [
     description:
       `O LG UltraWide Pro Gamer oferece 30% mais tela para uma incrível 
       imersão visual, dando a vantagem que você precisa para ganhar de seus adversários...`,
-    value: 1199,
+    value: "1199,90",
     addCart: "Adicionar ao carrinho",
     marca: "LG",
     tag: ["Monitores"],
@@ -121,7 +121,7 @@ const data = [
     description:
       `ASTRO Audio V2 e Dolby Audio integrado 15 horas de autonomia da bateria Balanço de voz no jogo 
       Software Astro Command Center MixAmp integrado compatível com XB1. PC e MAC...`,
-    value: 1779,
+    value: "1779,99",
     addCart: "Adicionar ao carrinho",
     marca: "Astro",
     tag: ["Acessórios"],
@@ -133,7 +133,7 @@ const data = [
     description:
       `Teclado gamer mecânico modelo Pro K7 Rainbow Fortrek
       Iluminação de LED RGB Rainbow com 22 modos de iluminação (13 efeitos + 9 estáticos)...`,
-    value: 179,
+    value: "179,99",
     addCart: "Adicionar ao carrinho",
     marca: "Fortrek",
     tag: ["Acessórios"],
@@ -146,7 +146,7 @@ const data = [
       `Tela 23.8" Full-HD IPS (1920X1080)
       Taxa de atualização de 144Hz a 165Hz
       Tempo de resposta: de 2ms até 0,5ms....`,
-    value: 2699,
+    value: "2699,99",
     addCart: "Adicionar ao carrinho",
     marca: "Acer",
     tag: ["Monitores"],
@@ -160,7 +160,7 @@ const data = [
       Tela de 15,6” IPS de 144HZ com resolução Full HD
       Sistema Operacional Windows 11
       GPU Nvidia GeForce GTX 1650 com 4 GB de memória dedicada GDDR6 (TGP de 50W)....`,
-    value: 4699,
+    value: "4699,55",
     addCart: "Adicionar ao carrinho",
     marca: "Acer",
     tag: ["Notebooks"],
@@ -173,7 +173,7 @@ const data = [
       `Processador Intel Core i5-11400H - Six Core – 11ª Geração Tela de 17,3” 
       IPS de 144HZ com resolução Full HD Sistema Operacional Windows 11 
       GPU Nvidia GeForce GTX 1650 com 4 GB de memória dedicada GDDR6 (TGP de 50W)....`,
-    value: 4749,
+    value: "4749,70",
     addCart: "Adicionar ao carrinho",
     marca: "Acer",
     tag: ["Notebooks"],
@@ -186,7 +186,7 @@ const data = [
       `10ª geração de Intel Core i5-10500H cache de 12MB, até 4.5 GHz, 6 cores
       Memória de 8GB 1x8GB, DDR4, 2933MHz; Expansível até 32GB, 2 slots soDIMM
       SSD de 512GB PCIe NVMe M.2....`,
-    value: 4649,
+    value: "4649,99",
     addCart: "Adicionar ao carrinho",
     marca: "Dell",
     tag: ["Notebooks"],
