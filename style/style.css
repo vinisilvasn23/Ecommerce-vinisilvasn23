@@ -51,7 +51,7 @@ main {
   min-width: auto; 
   min-height: 185vh;
   margin: 0 auto;
-  padding-top: 40px;
+  padding: 3.125rem;
   display: flex;
   flex-direction: row;
   font-family: Inter, sans-serif;
